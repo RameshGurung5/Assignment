@@ -1,0 +1,15 @@
+package com.example.android.assignment;
+
+import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class NewsFeed extends AppCompatActivity  {
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.newsfeed);
+    }
+    }
